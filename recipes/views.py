@@ -61,3 +61,19 @@ def log_out(request):
     logout(request)
     return redirect('root')
 
+
+def home(request):
+    return render(request, "home")
+
+
+def about(request):
+    return render(request, "about")
+
+
+def contact(request):
+    return render(request, "contact")
+
+
+def dashboard(request):
+    return render(request, "dashboard")
+
